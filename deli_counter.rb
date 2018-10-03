@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     status = "Current position: "
-    new_array = katz_deli.each_with_index do |name, index|
+    array = katz_deli.each_with_index do |name, index|
     status.push("#{index + 1}, #{name}")
   end 
 end 
