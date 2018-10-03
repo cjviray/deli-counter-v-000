@@ -6,7 +6,7 @@ def line(katz_deli)
   else 
     status = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-      status.push("#{index+1}. #{name}")
+    status.push("#{index+1}. #{name}")
     end
     puts status.join(" ")
   end
