@@ -17,11 +17,11 @@ end
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
- def now_serving(katz_deli)
+ def now_serving(array)
   if katz_deli.length == 0 
     puts "There is nobody waiting to be served!"
   else  
-    puts "Currently serving #{katz_deli.shift}."
+    puts "Currently serving #{array.shift}."
   end
 end 
 
