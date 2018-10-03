@@ -8,6 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
     status.push("#{index + 1}, #{name}")
   end 
+    puts status.join(" ")
 end 
 
 def take_a_number(katz_deli, name)
