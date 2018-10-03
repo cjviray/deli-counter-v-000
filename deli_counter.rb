@@ -11,7 +11,7 @@ def line(array)
 end 
 
 def take_a_number(array, name)
-  array << name
+  status.push << name
   puts "Welcome, #{name}. You are number #{array} in line."
 end 
 
