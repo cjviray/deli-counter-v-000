@@ -5,14 +5,14 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     status = "Current position: "
-    array.each_with_index do |name, index|
+    katz_deli.each_with_index do |name, index|
     status.push("#{index + 1}, #{name}")
   end 
 end 
 
-def take_a_number(array, name)
-  array.push(name)
-  puts "Welcome, #{name}. You are number #{array} in line."
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end 
 
 def now_serving(array)
